@@ -38,6 +38,7 @@ function App() {
         <div className = "App" >
             <div>
                 <Counter></Counter>
+                <Users></Users>
             </div>
            <div style={{backgroundColor:'gray', border:'5px dotted goldenrod', margin:'10px'}}>
            <h1 style={style1}>{person1.name}</h1>
@@ -59,6 +60,28 @@ function App() {
             </div>
        </div>
     );
+}
+function Counter(){
+    const [count,setCount]=useState(10);
+    const handleIncrease=()=>{
+        const newCount=count+1;
+        setCount(newCount);
+    };
+    
+    return(
+        <div>
+            <h1>Count: {count}</h1>
+            <button onClick={()=>setCount(count-1)}>Decrease</button>
+            <button onClick={handleIncrease}>Increase</button>
+        </div>
+    )
+}
+function Users(){
+    return(
+        <div>
+            <h2>Dynamic Users:</h2>
+        </div>
+    )
 }
 function Contact(props){
      return (
@@ -102,12 +125,5 @@ function Friend(props){
         </div>
     )
 }
-function Counter(){
-    const [count,setCount]=useState(10);
-    return(
-        <div>
-            <h1>Count: {count}</h1>
-        </div>
-    )
-}
+
 export default App;
