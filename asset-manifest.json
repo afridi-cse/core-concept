@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/core-concept/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/core-concept/static/js/main.66fd764c.chunk.js",
+    "main.js.map": "/core-concept/static/js/main.66fd764c.chunk.js.map",
+    "runtime-main.js": "/core-concept/static/js/runtime-main.bb7c39bf.js",
+    "runtime-main.js.map": "/core-concept/static/js/runtime-main.bb7c39bf.js.map",
+    "static/js/2.ed17e600.chunk.js": "/core-concept/static/js/2.ed17e600.chunk.js",
+    "static/js/2.ed17e600.chunk.js.map": "/core-concept/static/js/2.ed17e600.chunk.js.map",
+    "static/js/3.b5fd1632.chunk.js": "/core-concept/static/js/3.b5fd1632.chunk.js",
+    "static/js/3.b5fd1632.chunk.js.map": "/core-concept/static/js/3.b5fd1632.chunk.js.map",
+    "index.html": "/core-concept/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/core-concept/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.ed17e600.chunk.js.LICENSE.txt": "/core-concept/static/js/2.ed17e600.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/core-concept/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb7c39bf.js",
+    "static/js/2.ed17e600.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.66fd764c.chunk.js"
+  ]
+}
